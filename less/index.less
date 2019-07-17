@@ -54,6 +54,123 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	margin: 1% auto;
+	width: 800px;
+	Font-family: @common-font;
 }
 
+//start of <h> input
+
+h1 { 
+	display: block;
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+  }
+
+  h2 {
+	display: block;
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+  }
+
+  h3 { 
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+  }
+
+  h4 { 
+	display: block;
+	font-size: 1em;
+	margin-top: 1.33em;
+	margin-bottom: 1.33em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+  }
+
+  h5 { 
+	display: block;
+	font-size: .83em;
+	margin-top: 1.67em;
+	margin-bottom: 1.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+  }
+
+  h6 { 
+	display: block;
+	font-size: .67em;
+	margin-top: 2.33em;
+	margin-bottom: 2.33em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+  }
+
+//end of <h> input
+
+@common-font: 'Oxygen', sans-serif;
+
+header{
+	padding: 2% 0;
+	nav{
+		display: flex;
+		justify-content: space-around;
+		a{
+			text-decoration: none;
+			font-weight: bold;
+		} //closes a
+	} //closes nav
+} //closes header
+
+h1{
+	display: flex;
+	justify-content: center;
+	margin-top: 15%;
+	color: white;
+}
+
+h2{
+	display:flex;
+	justify-content: center;
+	margin: 5% auto;
+}
+
+h3{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 15%;
+	color: white;
+}
+
+.skills{
+	display: flex;
+	justify-content: space-around;
+}
+
+ul{
+	list-style-type: circle;
+
+	li{
+		margin: 5% 0;
+	}
+}
+.cover{
+	border: 1px solid black;
+	background-image: url('../img/cover.jpg');
+}
