@@ -138,11 +138,16 @@ header{
 	} //closes nav
 } //closes header
 
+.blueshadow(@sh2: #FFFFFF, @sh1: #FFFFFF){
+    text-shadow: 3px 3px 8px #00F;
+}
+
 h1{
 	display: flex;
 	justify-content: center;
 	margin-top: 15%;
 	color: white;
+	.blueshadow(#00F)
 }
 
 h2{
@@ -156,11 +161,15 @@ h3{
 	justify-content: center;
 	margin-bottom: 15%;
 	color: white;
+	.blueshadow(#00F)
 }
 
 .skills{
 	display: flex;
 	justify-content: space-around;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin: 5% auto;
 }
 
 ul{
@@ -173,4 +182,9 @@ ul{
 .cover{
 	border: 1px solid black;
 	background-image: url('../img/cover.jpg');
+}
+
+.skillCover{
+	border: 1px solid black;
+	background-color: lightblue;
 }
