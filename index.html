@@ -15,47 +15,113 @@
   <![endif]-->
 </head>
 
-<body>
-    <header>
-        <nav>
-            <a href="#">Introduction</a>
-            <a href="#">About</a>
-            <a href="#">Work</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
-    <div>
-        <div class="cover">  
-            <h1>Christopher Hernandez</h1>
-            <h3>Full Stack Web Developer</h3>
+    <body>
+
+        <header class="box">
+            <nav>
+                <a href="#intro">Introduction</a>
+                <a href="#skill">Skills</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <div>
+            <div class="cover">  
+                <h1>Christopher Hernandez</h1>
+                <h3>Full Stack Web Developer</h3>
+            </div>
         </div>
-    </div>
-</body>
 
+        <div>
+            <div class="box" id="intro">
+                <h2>Introduction</h2>
+                <p>Hello, my name is Christopher Hernandez. I am currently a student web developer currently enrolled in LambdaSchool. I currently live in Kern County in California.</p>
+            </div>
+            <div class="box">
+                <div id="skill">
+                    <h2>Skill Set</h2>
+                </div>
+                <div class="skills"><!--opens container of both ul divs-->
+                    <div>  <!--opens left half of bullet li-->
+                        <ul>
+                            <li>HTML</li>
+                            <li>css</li>
+                            <li>JavaScript</li>
+                            <li>Node</li>
+                        </ul>
+                    </div>  <!--closes left half of bullet li-->
+                    <div>  <!--opens right half of bullet li-->
+                        <ul>
+                            <li>React</li>
+                            <li>Python</li>
+                            <li>Express</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>  <!--closes right half of bullet li-->
+                </div>  <!--closes container of both ul divs-->
+            </div>
+            <div class="box" id="about">
+                <h2>About</h2>
+                <p>I am currently attending Lambda School, a fast growing trade school quickly building positive reputation with companies.</p>
+            </div>
+            <div class="box" id="work"> <!--work box section-->
+                <h2>Work</h2>
+                <div class="workbox">
+                    <div>
+                        <img class="work" src="work/work1.png" alt="First Work">
+                    
+                        <img class="work" src="work/work2.png" alt="Second Work">    
+                    
+                        <img class="work" src="work/work3.jpg" alt="Third Work">
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="contact"> <!--contact box section-->
+                <h2>Contact</h2>
+                    <div class="contact-container">
+                    <form action="action_page.php">
+                    <div class="information">  
+                        <div>
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                        </div>
+                        <div>
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                        <div>
+                            <label for="phone">Phone</label>
+                            <input type="text" id="phone" name="phonenumber" placeholder="Your phone number..">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="emailinfo" placeholder="Your email..">
+                        </div>
+                        </div>    
+                            <label for="country">Country</label>
+                                <select id="country" name="country">
+                                <option value="usa">USA</option>
+                                <option value="canada">Canada</option>
+                                <option value="mexico">Mexico</option>
+                            </select>
+                        </div>
+                
+                    <div class="message">
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <input type="submit" value="Submit">
+                    </div>
+                        </form>
+                    </div>
 
-<div class="skillCover">
-    <div>
-        <h2>Skill Set</h2>
-    </div>
-    <div class="skills">
-        <div>  <!--opens left half of bullet li-->
-            <ul>
-                <li>HTML</li>
-                <li>css</li>
-                <li>JavaScript</li>
-                <li>Node</li>
-            </ul>
-        </div>  <!--closes left half of bullet li-->
-        <div>  <!--opens right half of bullet li-->
-            <ul>
-                <li>React</li>
-                <li>Python</li>
-                <li>Express</li>
-                <li>SQL</li>
-            </ul>
-        </div>  <!--closes right half of bullet li-->
-    </div>  <!--closes container of both ul divs-->
-</div>
+                <div class="copyright">
+                    <p>Copyright 2019</p>
+                </div>
 
+            </div>
+        </div>
+
+    </body>
 
 </html>
