@@ -1,1 +1,309 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 1% auto;
+  width: 800px;
+  Font-family: 'Oxygen', sans-serif;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h4 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h6 {
+  display: block;
+  font-size: 0.67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+header {
+  padding: 2% 0;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+header nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  color: white;
+  text-shadow: 3px 3px 8px #00F;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 5% auto;
+  color: white;
+  text-shadow: 3px 3px 8px #000;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
+  color: white;
+  text-shadow: 3px 3px 8px #00F;
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  color: white;
+  text-shadow: 3px 3px 8px #00F;
+}
+p {
+  margin: 5%;
+  font-weight: bold;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 5% auto;
+}
+ul {
+  list-style-type: circle;
+}
+ul li {
+  margin: 5% 0;
+}
+.cover {
+  border: 1px solid black;
+  background-image: url('../img/cover.jpg');
+}
+.box {
+  border: 1px solid black;
+  background-color: lightgray;
+}
+.workbox {
+  display: flex;
+  justify-content: space-around;
+}
+.work {
+  height: auto;
+  width: 30%;
+}
+.copyright {
+  margin: 5% 0;
+  text-align: center;
+}
+.message {
+  display: flex;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-container {
+  margin-bottom: 50px;
+}
+.country {
+  margin: 5%;
+}
+#subject {
+  width: 100%;
+}
+.icons-container ul {
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+}
+.icons-container ul .icons li a {
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  display: inline-block;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  text-align: center;
+  width: 2.25rem;
+}
+@media (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
